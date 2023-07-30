@@ -373,6 +373,10 @@ img{
         max-width: 400px;
         margin: 0 auto;
     }
+
+    .app-body{
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 992px){
