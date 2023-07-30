@@ -45,6 +45,7 @@ li{
 }
 
 img{
+    height: 100%;
     width: 100%;
     display: block;
 }
@@ -58,7 +59,7 @@ img{
 .app{
     background-color: #0a0a0a;
     margin: 2rem;
-    padding: 5rem;
+    padding: 3.5rem 5rem;
     border-radius: 6px;
     color: #fff;
     box-shadow: 0px 5px 11px 0px rgba(0,0,0,0.5);
@@ -138,8 +139,8 @@ img{
 /* app body */
 
 .app-body{
-    margin-top: 4rem;
-    height: 600px;
+    margin-top: 3rem;
+    height: 500px;
     overflow-y: scroll;
 }
 
@@ -164,7 +165,7 @@ img{
     border-bottom: 2px solid rgba(255,255,255,0.1);
     border-radius: 2px;
     padding-bottom: 1.6rem;
-    margin: 2.4rem 0;
+    margin: 2rem 0;
 }
 
 .tab-head-single{
@@ -198,6 +199,7 @@ img{
     grid-template-columns: 2fr 3fr;
     column-gap: 4rem;
     margin-right: 2rem;
+    height: 100%;
 }
 
 .app-body-content-thumbnail{
@@ -215,7 +217,7 @@ img{
 }
 
 .app-body-tabs-body{
-    margin-top: 3.6rem;
+    margin-top: 3rem;
 }
 
 /* powerstats */
@@ -226,8 +228,8 @@ img{
 .powerstats li{
     display: flex;
     justify-content: space-between;
-    margin: 1.2rem auto;
-    padding: 1.2rem;
+    margin: 1rem auto;
+    padding: 1rem;
     box-shadow: 0 5px 7px rgba(0,0,0,0.5);
 }
 
@@ -324,7 +326,7 @@ img{
     font-weight: 700;
     font-size: 2rem;
     letter-spacing: 2px;
-    margin-top: 3.6rem;
+    margin-top: 3rem;
 }
 
 .connections li span:first-child::before{
@@ -364,8 +366,6 @@ img{
         grid-template-columns: 1fr;
         row-gap: 4rem;
         max-width: 680px;
-        /* margin-right: auto; */
-        /* margin-left: auto; */
         margin: 0 auto;
     }
 
